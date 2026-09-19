@@ -88,3 +88,13 @@ If any of these break, the deploy fails instead of silently shipping.
 > `hugo server` writes into `public/`, leaving `localhost:1313` URLs behind.
 > `public/` is gitignored and CI always builds from a clean checkout, so this
 > can't reach production — but don't publish a locally-served `public/` by hand.
+
+## New post workflow
+
+```bash
+hugo new content posts/my-post.md   # pre-fills url:, date, and the image hints
+# write it, then flip draft: true -> false
+git add -A && git commit -m "New post: ..." && git push
+```
+
+The archetype sets `url:` from the filename automatically — don't remove it.
