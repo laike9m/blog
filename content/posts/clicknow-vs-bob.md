@@ -7,7 +7,7 @@ description: "对比一下同为 Mac 划词软件的 Clicknow 和 Bob 的异同"
 summary: "对比一下同为 Mac 划词软件的 Clicknow 和 Bob 的异同"
 author: "laike9m"
 cover:
-  image: "/assets/uploads/222b2049a2a73eb490d9c20f37c1c191.jpg"
+  image: "/blog/assets/uploads/222b2049a2a73eb490d9c20f37c1c191.jpg"
   relative: false
 ---
 

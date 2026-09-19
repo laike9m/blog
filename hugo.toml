@@ -65,12 +65,14 @@ summaryLength = 30
 
   # PaperMod links five separate icon files and falls back to /blog/favicon-*.png
   # (which don't exist) unless every variant is set explicitly.
+  # These run through absURL, which does NOT insert the baseURL subpath for
+  # leading-slash paths -- hence the explicit /blog, same as cover images.
   [params.assets]
-    favicon = "/assets/uploads/ac6e68a8a3c67cccd73a1016293bfac9.png"
-    favicon16x16 = "/assets/uploads/ac6e68a8a3c67cccd73a1016293bfac9.png"
-    favicon32x32 = "/assets/uploads/ac6e68a8a3c67cccd73a1016293bfac9.png"
-    apple_touch_icon = "/assets/uploads/ac6e68a8a3c67cccd73a1016293bfac9.png"
-    safari_pinned_tab = "/assets/uploads/ac6e68a8a3c67cccd73a1016293bfac9.png"
+    favicon = "/blog/assets/uploads/ac6e68a8a3c67cccd73a1016293bfac9.png"
+    favicon16x16 = "/blog/assets/uploads/ac6e68a8a3c67cccd73a1016293bfac9.png"
+    favicon32x32 = "/blog/assets/uploads/ac6e68a8a3c67cccd73a1016293bfac9.png"
+    apple_touch_icon = "/blog/assets/uploads/ac6e68a8a3c67cccd73a1016293bfac9.png"
+    safari_pinned_tab = "/blog/assets/uploads/ac6e68a8a3c67cccd73a1016293bfac9.png"
 
   [params.cover]
     linkFullImages = true

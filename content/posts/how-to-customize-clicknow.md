@@ -7,7 +7,7 @@ description: "Keyboard shortcut, font, color, language preference, and more"
 summary: "Keyboard shortcut, font, color, language preference, and more"
 author: "laike9m"
 cover:
-  image: "/assets/uploads/14bcd67f1b0ac5ee16089ff42de8711d.png"
+  image: "/blog/assets/uploads/14bcd67f1b0ac5ee16089ff42de8711d.png"
   relative: false
 ---
 

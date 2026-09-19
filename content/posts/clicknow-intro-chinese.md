@@ -5,7 +5,7 @@ date: 2024-10-28T06:38:00Z
 lastmod: 2025-04-14T02:33:42Z
 author: "laike9m"
 cover:
-  image: "/assets/uploads/bac047064249818827a3953342cb811b.png"
+  image: "/blog/assets/uploads/bac047064249818827a3953342cb811b.png"
   relative: false
 ---
 

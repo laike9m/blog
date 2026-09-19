@@ -7,7 +7,7 @@ description: "You can open Clicknow from PopClip with one click"
 summary: "You can open Clicknow from PopClip with one click"
 author: "laike9m"
 cover:
-  image: "/assets/uploads/685e76fefad651798d3f315746c49ea4.webp"
+  image: "/blog/assets/uploads/685e76fefad651798d3f315746c49ea4.webp"
   relative: false
 ---
 

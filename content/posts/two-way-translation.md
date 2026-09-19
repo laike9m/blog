@@ -7,7 +7,7 @@ description: "Clicknow auto picks the best target translation language. For text
 summary: "Clicknow auto picks the best target translation language. For text in your native language, it's translated to your preferred 2nd language (e.g. English)"
 author: "laike9m"
 cover:
-  image: "/assets/uploads/be746927bdb5b38c58a3a94c10874e5b.png"
+  image: "/blog/assets/uploads/be746927bdb5b38c58a3a94c10874e5b.png"
   relative: false
 ---
 

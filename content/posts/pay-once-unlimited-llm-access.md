@@ -7,7 +7,7 @@ description: "Clicknow's most unique feature that you might not believe"
 summary: "Clicknow's most unique feature that you might not believe"
 author: "laike9m"
 cover:
-  image: "/assets/uploads/6f97a19b725ad00f497a49fb82b15297.jpg"
+  image: "/blog/assets/uploads/6f97a19b725ad00f497a49fb82b15297.jpg"
   relative: false
 ---
 

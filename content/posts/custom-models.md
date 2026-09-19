@@ -7,7 +7,7 @@ description: "Starting today, you can specify the preferred model to use (with y
 summary: "Starting today, you can specify the preferred model to use (with your own API key) in Clicknow"
 author: "laike9m"
 cover:
-  image: "/assets/uploads/6c643945658e05324de860d29157c681.png"
+  image: "/blog/assets/uploads/6c643945658e05324de860d29157c681.png"
   relative: false
 ---
 

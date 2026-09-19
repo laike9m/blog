@@ -7,7 +7,7 @@ description: "Enhanced AI-search, two-way translation, custom prompts, and scree
 summary: "Enhanced AI-search, two-way translation, custom prompts, and screenshot mode"
 author: "laike9m"
 cover:
-  image: "/assets/uploads/9e46e74813a26b5d4e0762cb8b2cee10.jpeg"
+  image: "/blog/assets/uploads/9e46e74813a26b5d4e0762cb8b2cee10.jpeg"
   relative: false
 ---
 

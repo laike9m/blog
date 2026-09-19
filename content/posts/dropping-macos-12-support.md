@@ -7,7 +7,7 @@ description: "Clicknow 1.13.13 is the last version to support macOS 12"
 summary: "Clicknow 1.13.13 is the last version to support macOS 12"
 author: "laike9m"
 cover:
-  image: "/assets/uploads/f271b5ae58e479b4d30b7aa3b0fa1742.jpg"
+  image: "/blog/assets/uploads/f271b5ae58e479b4d30b7aa3b0fa1742.jpg"
   relative: false
 ---
 
