@@ -1,0 +1,119 @@
+baseURL = "https://clicknow.ai/blog/"
+locale = "en-us"
+title = "Clicknow Blog"
+theme = "PaperMod"
+copyright = "laike9m"
+
+enableRobotsTXT = true
+enableEmoji = true
+enableInlineShortcodes = true
+summaryLength = 30
+
+# All 16 posts fit on one page, matching the old single-index feel.
+[pagination]
+  pagerSize = 20
+
+# Posts live in content/posts/ but are served at /blog/<slug> -- byte-for-byte
+# the same public URLs Blogmaker used. Do not change this.
+[permalinks]
+  posts = "/:slug/"
+
+# The old blog had no tag/category pages; don't invent empty ones.
+[taxonomies]
+
+# Blogmaker published its feed at /blog/feed.atom. Existing RSS subscribers
+# depend on that exact path, so we recreate it instead of using Hugo's default
+# /index.xml.
+[mediaTypes]
+  [mediaTypes."application/atom+xml"]
+    suffixes = ["atom"]
+
+[outputFormats]
+  [outputFormats.Atom]
+    mediaType = "application/atom+xml"
+    baseName = "feed"
+    isPlainText = false
+    rel = "alternate"
+
+[outputs]
+  home = ["HTML", "Atom", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML"]
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+  [markup.goldmark.renderer]
+    unsafe = true          # exported posts contain raw HTML from Blogmaker
+
+[params]
+  env = "production"
+  description = "Product updates, release notes, and guides for Clicknow."
+  author = "laike9m"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowFullTextinRSS = true
+  ShowShareButtons = false
+  ShowBreadCrumbs = false
+  ShowToc = false
+  hideFooter = false
+  mainSections = ["posts"]
+
+  # PaperMod links five separate icon files and falls back to /blog/favicon-*.png
+  # (which don't exist) unless every variant is set explicitly.
+  [params.assets]
+    favicon = "/assets/uploads/ac6e68a8a3c67cccd73a1016293bfac9.png"
+    favicon16x16 = "/assets/uploads/ac6e68a8a3c67cccd73a1016293bfac9.png"
+    favicon32x32 = "/assets/uploads/ac6e68a8a3c67cccd73a1016293bfac9.png"
+    apple_touch_icon = "/assets/uploads/ac6e68a8a3c67cccd73a1016293bfac9.png"
+    safari_pinned_tab = "/assets/uploads/ac6e68a8a3c67cccd73a1016293bfac9.png"
+
+  [params.cover]
+    linkFullImages = true
+    responsiveImages = false   # images are static files, not Hugo resources
+
+  [params.homeInfoParams]
+    Title = "Clicknow Blog"
+    Content = "Product updates, release notes, and guides for [Clicknow](https://clicknow.ai)."
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    threshold = 0.4
+    minMatchCharLength = 2
+    keys = ["title", "permalink", "summary", "content"]
+
+  [[params.socialIcons]]
+    name = "x"
+    url = "https://twitter.com/laike9m"
+  [[params.socialIcons]]
+    name = "mastodon"
+    url = "https://mastodon.social/@laike9m"
+  [[params.socialIcons]]
+    name = "youtube"
+    url = "https://youtube.com/laike9m"
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/laike9m/Clicknow"
+  [[params.socialIcons]]
+    name = "reddit"
+    url = "https://www.reddit.com/r/ClicknowAI/"
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/feed.atom"
+
+[[menu.main]]
+  identifier = "search"
+  name = "Search"
+  url = "/search/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "home"
+  name = "Back to clicknow.ai"
+  url = "https://clicknow.ai"
+  weight = 20

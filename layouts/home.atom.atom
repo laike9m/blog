@@ -1,0 +1,34 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" | safeHTML }}
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ site.LanguageCode }}">
+<link rel="self" type="application/atom+xml" href="{{ .Permalink }}" />
+<id>{{ site.BaseURL }}</id>
+<title>{{ site.Title }}</title>
+<subtitle>{{ site.Params.description }}</subtitle>
+<link rel="alternate" type="text/html" href="{{ site.BaseURL }}" />
+<updated>{{ now.Format "2006-01-02T15:04:05Z07:00" }}</updated>
+{{- /*
+  Blogmaker's feed used entry ids WITHOUT a trailing slash, e.g.
+  https://clicknow.ai/blog/two-way-translation
+  Hugo permalinks add one. Feed readers key off <id>, so emitting the trailing
+  slash would make all 16 posts look brand new and re-notify every existing
+  subscriber. We trim it to keep the ids byte-identical to the old feed.
+*/ -}}
+{{- range first 50 (where site.RegularPages "Section" "posts") }}
+{{- $id := strings.TrimSuffix "/" .Permalink }}
+<entry>
+<id>{{ $id }}</id>
+<published>{{ .Date.Format "2006-01-02T15:04:05Z" }}</published>
+<updated>{{ .Lastmod.Format "2006-01-02T15:04:05Z" }}</updated>
+<link rel="alternate" type="text/html" href="{{ $id }}" />
+{{- with .Params.cover }}{{ with .image }}
+<link rel="enclosure" href="{{ . | absURL }}" />
+{{- end }}{{ end }}
+<title>{{ .Title }}</title>
+<summary>{{ .Description }}</summary>
+<content type="html">{{ .Content | html }}</content>
+<author>
+<name>{{ .Params.author | default site.Params.author }}</name>
+</author>
+</entry>
+{{- end }}
+</feed>
