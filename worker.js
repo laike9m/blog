@@ -34,16 +34,21 @@ export default {
 
     // Blogmaker served posts WITHOUT a trailing slash
     // (clicknow.ai/blog/two-way-translation), while Hugo/GitHub Pages store
-    // them as <slug>/index.html and would answer with a 301 to the trailing
-    // slash form. Rather than redirect — which changes the URL that users and
-    // search engines see — fetch the index.html directly and serve it at the
-    // original address. Old links stay 200 OK and byte-identical in the bar.
-    const candidates = [url.pathname];
+    // them as <slug>/index.html. Asking the origin for the bare path gets a
+    // 301 to the trailing-slash form, which would change the URL users and
+    // search engines see.
+    //
+    // So for extensionless paths we ask for <path>/index.html FIRST and serve
+    // that at the original address. Order matters: GitHub Pages answers the
+    // bare path with a 301, not a 404, so trying it first would short-circuit
+    // "fall through on 404" logic and leak the redirect.
+    const candidates = [];
     if (looksLikeExtensionlessPage(url.pathname)) {
       candidates.push(url.pathname + "/index.html");
     } else if (url.pathname.endsWith("/")) {
       candidates.push(url.pathname + "index.html");
     }
+    candidates.push(url.pathname); // raw path last, as the fallback
 
     let response;
     let originUrl;
@@ -61,7 +66,7 @@ export default {
         }),
         { cf: { cacheTtl: 300, cacheEverything: true } },
       );
-      if (response.status !== 404) break;
+      if (response.status === 200) break;
     }
 
     // Rewrite any origin-side redirect so the visitor never sees github.io.
