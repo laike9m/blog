@@ -43,6 +43,15 @@ jobs:
       - name: Build
         run: hugo --gc --minify
 
+      # Gate the deploy on the migration contract: every original Blogmaker
+      # URL must still resolve, asset paths must keep the /blog prefix, and
+      # feed entry ids must stay byte-identical. Cheaper to fail here than to
+      # discover a silent 404 in Search Console weeks later.
+      - name: Verify build
+        run: |
+          pip install --quiet beautifulsoup4
+          python3 tools/verify_build.py
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./public

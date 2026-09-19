@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?><feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+<link rel="self" type="application/atom+xml" href="https://clicknow.ai/blog/feed.atom" />
+<id>https://clicknow.ai/blog/</id>
+<title>Clicknow Blog</title>
+<subtitle></subtitle>
+<link rel="alternate" type="text/html" href="https://clicknow.ai/blog/" />
+<updated>2025-04-16T16:14:39Z</updated>
+<entry>
+<id>https://clicknow.ai/blog/pay-once-unlimited-llm-access</id>
+<published>2025-04-16T05:10:00Z</published>
+<updated>2025-04-16T06:00:37Z</updated>
+<link rel="alternate" type="text/html" href="https://clicknow.ai/blog/pay-once-unlimited-llm-access" />
+<link rel="enclosure" type="image/jpeg" href="https://clicknow.ai/blog/assets/uploads/6f97a19b725ad00f497a49fb82b15297.jpg" length="64566" />
+<title>Clicknow: Unlimited LLM Access for Less Than $20</title>
+<summary>Clicknow&#039;s most unique feature that you might not believe</summary>
+<content type="html"><![CDATA[<p>ChatGPT changes everything, not just technology, but also business.</p>
+<p>Before ChatGPT, people would think carefully before subscribing to a $20/month service. Now in 2025, $20/month has become an industry standard for LLM services, and we seem to take it for granted. What's even worse? Many LLM wrappers, despite requiring customers to bring their own API keys, still charge them $5 ~ $20 dollars a month. To me, this is unacceptable.</p>
+<p>In the good old days, most software used the pay-once use forever model. They didn't have subscriptions, because it didn't make sense. <a href="https://Clicknow.ai">Clicknow</a> shares the same idea. <strong>We believe one-time payment works best for customers, and it works best for our business</strong>.</p>
+<p>To take it one step further, <strong>Clicknow is one of the few LLM tools that don't require an API key. It has its own.</strong></p>
+<p>After installing Clicknow, you can start using it right away. This is particularly helpful for people who have trouble paying for ChatGPT/Claude/etc, due to not having supported payment methods, or who live in regions that these services don't support.</p>
+<p>In case you wonder if this model is sustainable, I once <a href="https://x.com/laike9m/status/1912382683386376339">shared</a> the billing with everyone: Clicknow's API fee is less than $1 per month, since Gemini flash models are surprisingly cheap. So yes, it is sustainable, and I'm happy we can do it this way to make our users' life easier.</p>]]></content>
+<author>
+<name>laike9m </name>
+</author>
+</entry>
+<entry>
+<id>https://clicknow.ai/blog/two-way-translation</id>
+<published>2025-04-06T18:23:00Z</published>
+<updated>2025-04-16T16:14:39Z</updated>
+<link rel="alternate" type="text/html" href="https://clicknow.ai/blog/two-way-translation" />
+<link rel="enclosure" type="image/png" href="https://clicknow.ai/blog/assets/uploads/be746927bdb5b38c58a3a94c10874e5b.png" length="32242" />
+<title>Two-way translation（中英文互译）</title>
+<summary>Clicknow auto picks the best target translation language. For text in your native language, it&#039;s translated to your preferred 2nd language (e.g. English)</summary>
+<content type="html"><![CDATA[<p>Clicknow is a handy tool for anyone who needs to work with foreign languages. Today, we're making Clicknow even more useful, introducing Two-way translation.</p>
+How It Works
+<p>Let's say you're a native Chinese speaker, but you need to work with  English. Previously, you set "Translate to" to Simplified Chinese (简体中文). Now, you can set "Second language" to English</p><p>(Note: You can pick any two languages, not just Chinese and English)</p>
+Two-way translation
+<img src="https://editor.blogmaker.app/web/assets/uploads/b60ce7e02c4afbc21ef0e0249c97082e.png" alt="b60ce7e02c4afbc21ef0e0249c97082e.png">
+<p> Clicknow automatically detects the language when you perform text selection:</p>
+<ol><li>If the selected text is not Chinese, it will be translate to Chinese (the "translate-to" language);</li><li>If it is Chinese, it will be translate to English (the second language)</li></ol>
+<p>This allows people to work with their native  and second language seamlessly.</p>
+Example
+<p> I'm still using Chinese-English as an example, but it works for any language combination.</p>
+<p>Oh, did I mention you can replace the original text with its translation with one click? 😉</p>
+
+<p></p>]]></content>
+<author>
+<name>laike9m </name>
+</author>
+</entry>
+<entry>
+<id>https://clicknow.ai/blog/custom-models</id>
+<published>2025-04-04T21:31:00Z</published>
+<updated>2025-04-04T22:04:12Z</updated>
+<link rel="alternate" type="text/html" href="https://clicknow.ai/blog/custom-models" />
+<link rel="enclosure" type="image/png" href="https://clicknow.ai/blog/assets/uploads/6c643945658e05324de860d29157c681.png" length="59115" />
+<title>Custom models (OpenAI, Claude, Deepseek)  are now supported 🎉</title>
+<summary>Starting today, you can specify the preferred model to use (with your own API key) in Clicknow</summary>
+<content type="html"><![CDATA[<p> Clicknow is a unique AI tool as it comes with its own API key, and you can start using it right after download. By default, it uses Gemini to handle translation and explanation (and Perplexity for  online searching). While this is handy, many customers still want to be able choose a different model and use their own API key.</p><p>Today, I'm happy to announce that this is possible. Starting version 1.15, Clicknow supports the following models:</p><ul><li>GPT-4</li><li>GPT-4 Turbo</li><li>Claude 3.5 Sonnet</li><li>Claude 3.5 Haiku</li><li>Claude 3.7 Sonnet</li><li>DeepSeek V3</li><li>DeepSeek R1</li></ul><img src="https://editor.blogmaker.app/web/assets/uploads/f70acc1af8b331af643480e9ae22d619.png" alt="f70acc1af8b331af643480e9ae22d619.png"><p>To use these models, you need to provide an API key.</p><p>If you want to use a model that's not in the list, please let me know in <a href="https://www.reddit.com/r/ClicknowAI/">r/ClicknowAI</a> and I'll be happy to support it.</p>]]></content>
+<author>
+<name>laike9m </name>
+</author>
+</entry>
+<entry>
+<id>https://clicknow.ai/blog/popclip-clicknow-extension</id>
+<published>2025-02-16T04:34:00Z</published>
+<updated>2025-02-25T04:01:05Z</updated>
+<link rel="alternate" type="text/html" href="https://clicknow.ai/blog/popclip-clicknow-extension" />
+<link rel="enclosure" type="image/webp" href="https://clicknow.ai/blog/assets/uploads/685e76fefad651798d3f315746c49ea4.webp" length="11596" />
+<title>PopClip Clicknow extension</title>
+<summary>You can open Clicknow from PopClip with one click</summary>
+<content type="html"><![CDATA[<p>Starting from 1.14.6, Clicknow provides a native <a href="https://github.com/laike9m/Clicknow/releases/download/1.14.8/clicknow.popcliptxt">PopClip extension</a>! Once installed, it works just like another PopClip button. Here's how it looks like:</p>
+<img src="https://editor.blogmaker.app/web/assets/uploads/c41cd887f76328d89a76907c42f4d74d.png" alt="c41cd887f76328d89a76907c42f4d74d.png">
+PopClip Clicknow extension
+Installation
+<p>Installing the extension is super easy</p>
+<ol><li>Make sure you've installed <a href="https://clicknow.ai">Clicknow</a> and <a href="https://www.popclip.app/">PopClip</a>;</li><li><a href="https://github.com/laike9m/Clicknow/releases/download/1.14.5/clicknow.popcliptxt">Download</a> the extension</li><li>Double click the downloaded file clicknow.popcliptxt to install</li></ol>
+<p>You should be able to see Clicknow appear as a PopClip extension 😀</p>
+<img src="https://editor.blogmaker.app/web/assets/uploads/8a879fed8ce87a5d41fe4827bf1fb940.png" alt="8a879fed8ce87a5d41fe4827bf1fb940.png">
+<p></p>
+How do I disable Clicknow's popup, and only leave PopClip's?
+<p>Once you installed the extension, most likely you only want one popup.</p>
+<p>You can do so  easily but  turning off Clicknow from the status bar, then you'll only see PopClip's popup. You can still use the extension and activate Clicknow as needed. </p>
+<img src="https://editor.blogmaker.app/web/assets/uploads/c727de06d78b7555cc486e582a080bce.png" alt="c727de06d78b7555cc486e582a080bce.png">
+Do I still need the Clicknow app if I installed the PopClip extension?
+<p>First, <strong>the PopClip extension just invokes the Clicknow app, so you still need to have Clicknow installed and activated</strong>. I built the extension because many PopClip users asked for it, which is understandable as they only want one popup.</p>
+<p>PopClip extension provides the two main features of Clicknow: <strong>explain</strong>, <strong>translate</strong>. But <strong>the Clicknow app has several features that the extension doesn't cover</strong>:</p>
+<ul><li>Spell check</li><li>Add date/time to calendar</li><li>Flight tracking when selecting a flight number</li></ul>
+<p>If you don't use these features, then you can pretty much use the extension or native app interchangeably. For me, I prefer to use the app directly because I heavily use the spell checker.</p>
+<p></p>
+<p>Encountered any issue? Don't hesitate to <a href="https://www.reddit.com/r/ClicknowAI/">let me know</a>.</p>]]></content>
+<author>
+<name>laike9m </name>
+</author>
+</entry>
+<entry>
+<id>https://clicknow.ai/blog/dropping-macos-12-support</id>
+<published>2025-01-25T08:20:00Z</published>
+<updated>2025-01-25T08:24:40Z</updated>
+<link rel="alternate" type="text/html" href="https://clicknow.ai/blog/dropping-macos-12-support" />
+<link rel="enclosure" type="image/jpeg" href="https://clicknow.ai/blog/assets/uploads/f271b5ae58e479b4d30b7aa3b0fa1742.jpg" length="69225" />
+<title>Dropping macOS 12 support</title>
+<summary>Clicknow 1.13.13 is the last version to support macOS 12</summary>
+<content type="html"><![CDATA[<p>Clicknow 1.13.13 is the last version to support macOS 12.</p><p>Starting 1.13.14, Clicknow will require macOS 13+. </p><p>If you're still using macOS 12, consider upgrading if you can, as the Apple's support has <a href="https://endoflife.date/macos">already ended</a>.</p><img src="https://editor.blogmaker.app/web/assets/uploads/3579c6fcd0d08fbbb604cdd846177162.png" alt="3579c6fcd0d08fbbb604cdd846177162.png">]]></content>
+<author>
+<name>laike9m </name>
+</author>
+</entry>
+<entry>
+<id>https://clicknow.ai/blog/roadmap</id>
+<published>2024-12-28T06:59:00Z</published>
+<updated>2025-02-18T01:23:43Z</updated>
+<link rel="alternate" type="text/html" href="https://clicknow.ai/blog/roadmap" />
+<link rel="enclosure" type="image/jpeg" href="https://clicknow.ai/blog/assets/uploads/9e46e74813a26b5d4e0762cb8b2cee10.jpeg" length="49527" />
+<title>Clicknow&#039;s Roadmap: 1.14 ~ 2.1</title>
+<summary>Enhanced AI-search, two-way translation, custom prompts, and screenshot mode</summary>
+<content type="html"><![CDATA[<p>Here's the planned roadmap for Clicknow, from 1.4 to 2.1</p>
+Ver 1.14 - Enhanced AI-search
+<p>Clicknow can search online, but in many cases the  result is still directly returned from LLM without online data. I want to make it work more reliably, so that online data is included in the result when available.</p>
+<p>Note: online-search requires accessing perplexity.ai. Not being able to access the website will disable this feature.</p>
+Ver 1.15 - Two-way Translation
+<p>This feature is asked by many non-English speaking users.</p>
+<p>The end state will be like this: you can set a first (your native language) and second language (most likely English)</p>
+<ul><li>If the selected text is not in your first language, it will be translated to your first language;</li><li>If the selected text is in your first language, it will be translated to the second language.</li></ul>
+<p>let's say I'm a native Chinese speaker, I can set my first language as Chinese, and second language as English. Then, I can first write something in Chinese, and let Clicknow translate it into English, which it currently can't do.</p>
+Ver 2.0 - Custom Prompts
+<p>This is probably the most asked feature, and admittedly a significant change.</p>
+<p>The current workflow and UX will NOT change. A third button will be added so you can enter custom prompts. You will also be able to store common prompts and select from them to avoid repetitive typing.</p>
+<p>Details and UI is TBD. I will share more when ready.</p>
+Ver 2.1 - Screenshot Mode
+<p>Finally, explain or translate the text in a screenshot is also what many people want to use Clicknow for. I was a bit hesitant at first, but ultimately thought it would be really useful, so I decided to put it here.</p>
+Final Words
+<p>After 2.1, I believe Clicknow will (by and large) be feature complete. Of course, there will always be new requests and bug fixes, which I will be working on. However, Clicknow will not evolve into a full-featured LLM client, that is not the goal. It will always be a lightweight, non-interruptive, use-and-forget tool, that is there when you're too lazy to switch to another app. If you need to dig deep into something, a LLM client is a better choice.</p>]]></content>
+<author>
+<name>laike9m </name>
+</author>
+</entry>
+<entry>
+<id>https://clicknow.ai/blog/-1137-google-search</id>
+<published>2024-12-22T08:38:00Z</published>
+<updated>2024-12-22T08:46:34Z</updated>
+<link rel="alternate" type="text/html" href="https://clicknow.ai/blog/-1137-google-search" />
+<link rel="enclosure" type="image/png" href="https://clicknow.ai/blog/assets/uploads/b6967c0e84ffce5fcc19a3525a032f05.png" length="226581" />
+<title>🌐 Clicknow 1.13.7 Supports Google Search</title>
+<summary></summary>
+<content type="html"><![CDATA[<p>Clicknow 1.13.7 supports Google search. If you're not satisfied with the existing explanation or want to know more, simply search Google with one click.</p>]]></content>
+<author>
+<name>laike9m </name>
+</author>
+</entry>
+<entry>
+<id>https://clicknow.ai/blog/new-spell-checker</id>
+<published>2024-12-11T05:15:00Z</published>
+<updated>2024-12-13T08:52:26Z</updated>
+<link rel="alternate" type="text/html" href="https://clicknow.ai/blog/new-spell-checker" />
+<link rel="enclosure" type="image/png" href="https://clicknow.ai/blog/assets/uploads/f7fd8bd03c92ff594dc472b6c13f6f4e.png" length="52933" />
+<title>🔤 A new spell checker in ver 1.13.4</title>
+<summary></summary>
+<content type="html"><![CDATA[<p>In 1.13.4, Clicknow gains a revamped spell checker. Here's what we improved:</p>
+<ul><li>Previously, the spell checker only works in limited places. Now, it works everywhere: email, doc, notes, chat, webpage, you name it</li><li>It now provides multiple choices (previously just one)</li><li>If you think the spelling is  correct, you can add it to dictionary, so it won't be recognized as typo any more.</li></ul>
+<img src="https://editor.blogmaker.app/web/assets/uploads/9a08c28ab4e318ed2a7d72fffc1b6f22.png" alt="9a08c28ab4e318ed2a7d72fffc1b6f22.png">
+<p>Hope you find the new spell checker useful 😃</p>
+<p>As always, if you have any feedback, let me know in <a href="https://www.reddit.com/r/ClicknowAI/">/r/ClicknowAI</a>.</p>
+<p></p>
+<p>Image made by <a href="https://www.flaticon.com/authors/juicy-fish">juicy_fish</a></p>]]></content>
+<author>
+<name>laike9m </name>
+</author>
+</entry>
+<entry>
+<id>https://clicknow.ai/blog/privay-privacy-and-privacy</id>
+<published>2024-12-08T19:34:00Z</published>
+<updated>2024-12-11T08:40:00Z</updated>
+<link rel="alternate" type="text/html" href="https://clicknow.ai/blog/privay-privacy-and-privacy" />
+<link rel="enclosure" type="image/jpeg" href="https://clicknow.ai/blog/assets/uploads/1024c06e43127ddb036ca3cbdf78a0bd.jpg" length="93987" />
+<title>Privay, privacy, and privacy</title>
+<summary></summary>
+<content type="html"><![CDATA[<p>In Clicknow, user privacy is paramount.</p>
+What Information Does Clicknow Collects?
+<p>When you click the search or translate button, only the selected text is sent to Clicknow's server. We don't collect  device info, IP, or any other personal Identifiable Information (PII).</p>
+<p>Note, that the text is only sent upon clicking on the button, or pressing a shortcut. It is NOT sent when you highlight the text, so rest assured.</p>
+What Information Is Stored on Clicknow's Server?
+<p>The only information stored is user payment info and activation status. <br>Clicknow does NOT store user-selected text.</p>
+Can Clicknow Link Requests to A Specific User?
+<p>No. We authenticate requests in an anonymous way, making it impossible to  link to a specific user even if we want to. </p>
+Have Concerns? Let Me Know
+<p><a href="https://www.reddit.com/r/ClicknowAI/">r/Clicknow</a></p>]]></content>
+<author>
+<name>laike9m </name>
+</author>
+</entry>
+<entry>
+<id>https://clicknow.ai/blog/clicknow-and-popclip</id>
+<published>2024-11-25T23:46:00Z</published>
+<updated>2025-02-25T04:01:32Z</updated>
+<link rel="alternate" type="text/html" href="https://clicknow.ai/blog/clicknow-and-popclip" />
+<title>✅ Yes, Clicknow is compatible with PopClip</title>
+<summary>Clicknow 和 PopClip 可以同时使用</summary>
+<content type="html"><![CDATA[<p></p>
+<p>
+    Many people want to use Clicknow and <a href="https://www.popclip.app/">PopClip</a> together, in this article I'm gonna show you how. 
+</p>
+
+    Recommended: use Clicknow's  <a href="https://github.com/laike9m/Clicknow/releases/download/1.14.8/clicknow.popcliptxt">PopClip extension</a>
+<p>Once installed, Clicknow can be triggered from PopClip:</p>
+<img src="https://editor.blogmaker.app/web/assets/uploads/621b2d759e5596a40b98dd9a645aeea1.png" alt="621b2d759e5596a40b98dd9a645aeea1.png">
+<p>You still need to have Clicknow installed and activated, but you can disable it to avoid having two popups. <a href="https://clicknow.ai/blog/popclip-clicknow-extension">Read more here</a>.</p>
+Alternative: having two popups
+<p>I crafted Clicknow so that its popup doesn't overlap with PopClip's, and can be used together.</p>
+
+    <img src="https://editor.blogmaker.app/web/assets/uploads/c15fac866328aeb7eba4459984ca0f21.png" alt="c15fac866328aeb7eba4459984ca0f21.png">
+
+<p></p>]]></content>
+<author>
+<name>laike9m </name>
+</author>
+</entry>
+<entry>
+<id>https://clicknow.ai/blog/use-clicknow-in-marginnote</id>
+<published>2024-11-22T07:43:00Z</published>
+<updated>2024-11-22T07:53:52Z</updated>
+<link rel="alternate" type="text/html" href="https://clicknow.ai/blog/use-clicknow-in-marginnote" />
+<title>Use Clicknow in MarginNote</title>
+<summary></summary>
+<content type="html"><![CDATA[<p><a href="https://www.marginnote.com/">MarginNote</a> has a built-in popup:</p><img src="https://editor.blogmaker.app/web/assets/uploads/8b807c75fa9d03afbc1b3306f3ef2ce8.png" alt="8b807c75fa9d03afbc1b3306f3ef2ce8.png"><p>When using Clicknow, the original popup will disappear:</p><img src="https://editor.blogmaker.app/web/assets/uploads/a08bb4981340d040875a50866996e0fd.gif" alt="a08bb4981340d040875a50866996e0fd.gif"><p>You can make it work in two ways:</p><p>Method 1: Disable Clicknow in MarginNote</p><img src="https://editor.blogmaker.app/web/assets/uploads/267f1fad1797a8fde5afd5fa7df0f325.png" alt="267f1fad1797a8fde5afd5fa7df0f325.png"><p>Method 2: use shortcut to trigger Clicknow</p><img src="https://editor.blogmaker.app/web/assets/uploads/1caed8607069c577d6382256033f268a.png" alt="1caed8607069c577d6382256033f268a.png"><p>If you encounter any app compatibility issues, don't hesitate to <a href="https://clicknow.ai/blog/contact">contact me</a>.</p><p></p><p></p><p></p><p><br></p>]]></content>
+<author>
+<name>laike9m </name>
+</author>
+</entry>
+<entry>
+<id>https://clicknow.ai/blog/clicknow-vs-bob</id>
+<published>2024-11-11T08:21:00Z</published>
+<updated>2024-11-11T09:18:40Z</updated>
+<link rel="alternate" type="text/html" href="https://clicknow.ai/blog/clicknow-vs-bob" />
+<link rel="enclosure" type="image/jpeg" href="https://clicknow.ai/blog/assets/uploads/222b2049a2a73eb490d9c20f37c1c191.jpg" length="43572" />
+<title>Clicknow vs Bob</title>
+<summary>对比一下同为 Mac 划词软件的 Clicknow 和 Bob 的异同</summary>
+<content type="html"><![CDATA[<p>我经常被人问：Clicknow 和 Bob 有什么区别？今天我们来简单做个对比。</p>联网搜索<p>毫无疑问，Bob 是划词翻译领域的先驱和王者。如果你需要的是且只是翻译，那么我推荐直接使用 Bob。</p><p>Clicknow 的翻译效果很好（用的 Gemini 1.5），但它的强项更在于联网 AI 搜索。</p><p>比如，你听到一个播客叫<a href="https://pythonhunter.org/episodes/ep49">《捕蛇者说》</a>，你想知道这个主播 "laike9m" 是谁？无需离开当前页面，Clicknow 两秒钟就能告诉你答案：</p><img src="https://editor.blogmaker.app/web/assets/uploads/20d073d1e1e424c4d2fc6d0d9642bec9.png" alt="20d073d1e1e424c4d2fc6d0d9642bec9.png"><p></p><p>而这个场景对 Bob 来说就显得有些吃力了。。</p><img src="https://editor.blogmaker.app/web/assets/uploads/deec4592a7627e35301651a6e0bcfae8.png" alt="deec4592a7627e35301651a6e0bcfae8.png">其它功能<p>除此之外，Clicknow 还提供了许多小功能，例如拼写检查、添加日历、计算器、航班追踪等等。</p><p>我个人最常用的毫无疑问是拼写检查，用上就很难离开了。比如你在 Telegram 里写 appropriate 这个词，但是错拼成了了 approprate（少了个 i）。使用 Telegram 内置的拼写检查，需要“右键点击 -&gt; 选择 spelling -&gt; 选择 approprate“ 才能修复：</p><img src="https://editor.blogmaker.app/web/assets/uploads/a91d3710eea122fb1cabae8b23e8acc7.png" alt="a91d3710eea122fb1cabae8b23e8acc7.png"><p>而 Clicknow 只需双击一次：</p><img src="https://editor.blogmaker.app/web/assets/uploads/18567bbb10fbd627e387b9c79658e4a6.png" alt="18567bbb10fbd627e387b9c79658e4a6.png"><p>至于划词添加日历，目前没有其它 app 能做到：</p><img src="https://editor.blogmaker.app/web/assets/uploads/050000230828cd0617306797f042423f.gif" alt="050000230828cd0617306797f042423f.gif">总结<p>Bob 将划词翻译做到了极致，而 Clicknow 则更为全面，选择哪款软件就看你的需求了。当然，一起用也是完全 OK 的。</p>]]></content>
+<author>
+<name>laike9m </name>
+</author>
+</entry>
+<entry>
+<id>https://clicknow.ai/blog/clicknow-intro-chinese</id>
+<published>2024-10-28T06:38:00Z</published>
+<updated>2025-04-14T02:33:42Z</updated>
+<link rel="alternate" type="text/html" href="https://clicknow.ai/blog/clicknow-intro-chinese" />
+<link rel="enclosure" type="image/png" href="https://clicknow.ai/blog/assets/uploads/bac047064249818827a3953342cb811b.png" length="211735" />
+<title>Clicknow - 让你的工作和学习效率翻倍</title>
+<summary></summary>
+<content type="html"><![CDATA[<a href="https://github.com/laike9m/Clicknow/wiki/%F0%9F%93%9A%E3%80%90%E6%95%99%E7%A8%8B%E3%80%91%E5%A6%82%E4%BD%95%E6%BF%80%E6%B4%BB-Clicknow%EF%BC%8C%E6%BF%80%E6%B4%BB%E7%A0%81%E5%9C%A8%E5%93%AA%EF%BC%9F">【教程】如何激活 Clicknow，激活码在哪？</a>
+<a href="https://github.com/laike9m/Clicknow/wiki/Clicknow-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E5%92%8C%E8%A7%A3%E7%AD%94">Clicknow 常见问题和解答</a>
+<p></p>
+<p>你是否曾在阅读文档时遇到陌生词汇，不得不切换到浏览器去搜索？或是在翻译文章时来回复制粘贴，觉得效率低下？这些都不是事儿！<a href="https://clicknow.ai">Clicknow</a> 将为你带来前所未有的便捷体验。</p>
+
+开箱即用，无需 API key 和翻墙
+<p>使用 ChatGPT 要翻墙？好不容易买到的账号却突然被封？国内用户想使用 AI 产品实在太难了。</p>
+<p>Clicknow 自带 API key，花不到 ChatGPT pro 一个月的价格，换从此不担心 API key 购买/支付/过期/封号。大部分功能无需翻墙一样使用，比官方 API 更方便！</p>
+超越传统词典的智能助手
+<p>例句 + 发音，让你快速掌握一个单词的用法。</p>
+<img src="https://editor.blogmaker.app/web/assets/uploads/b7665cfaf467ec3d15b9947b693bdaba.png" alt="b7665cfaf467ec3d15b9947b693bdaba.png">
+<p>除了翻译，Clicknow 让你获取全球知识。无论是人名、术语甚至代码，选中文字立即获得详细解释，让学习和工作更加高效。</p><img src="https://editor.blogmaker.app/web/assets/uploads/a7e11f45cbeee163ccb0d18742e91a60.png" alt="a7e11f45cbeee163ccb0d18742e91a60.png">
+
+中英互译，一键替换
+<p>Clicknow 能自动识别选中的语言，实现中英互译（或任意两种语言），还能直接把原文替换为翻译。</p>
+<img src="https://editor.blogmaker.app/web/assets/uploads/25e201fdade02feeb30de81f200551f8.gif" alt="25e201fdade02feeb30de81f200551f8.gif">
+无缝集成，随处可用
+<p>Clicknow 最大的优势在于其完美的系统集成能力。它可以在你使用的任何应用程序中工作，无需在不同窗口间切换。当你在阅读PDF、浏览网页或使用其他应用时，只需轻轻一点，即可获得选中文本的即时解释，支持多种语言转换。</p>
+智能搜索，即点即得
+<p>Clicknow 的 AI 驱动搜索能够快速提供准确的信息解读，帮助你更快速理解内容。</p>
+<img src="https://editor.blogmaker.app/web/assets/uploads/b0afd4fe8c4ebe224335f721a907f10b.png" alt="b0afd4fe8c4ebe224335f721a907f10b.png">
+极致便捷，零打断工作流
+<p>与其他需要打开新标签页的工具相比，Clicknow 让你始终保持在当前应用中，不会打断你的工作思路。选中文字后，解释窗口优雅地出现，获取信息后即可继续工作，真正做到无缝衔接。</p>
+集成超多有用小工具
+<p>Clicknow 智能识别所选的文字，支持拼写检查、航班追踪、计算器、日历添加等各种实用功能！</p>
+<img src="https://editor.blogstatic.io/web/assets/uploads/af0b8ae13dfb29fae94b92abca806494.png" alt="af0b8ae13dfb29fae94b92abca806494.png">
+个性化定制，随心所欲
+<p>Clicknow 开箱即用，但它同时提供了丰富的自定义选项：</p>
+<ul>
+<li>支持键盘快捷键激活</li>
+<li>可调整字体样式和行间距</li>
+<li>自定义强调色</li>
+<li>灵活的语言设置</li>
+<li>可选功能开关</li>
+<li>应用程序黑名单设置</li>
+</ul>
+<p>立即开始使用 <a href="https://clicknow.ai">Clicknow</a>，让你的工作学习效率立刻提升一个台阶！告别繁琐的查询流程，享受流畅的信息获取体验。让 Clicknow 成为你的智能助手，带你进入效率办公的新纪元。</p>]]></content>
+<author>
+<name>laike9m </name>
+</author>
+</entry>
+<entry>
+<id>https://clicknow.ai/blog/how-to-customize-clicknow</id>
+<published>2024-10-27T20:14:00Z</published>
+<updated>2024-11-26T18:46:43Z</updated>
+<link rel="alternate" type="text/html" href="https://clicknow.ai/blog/how-to-customize-clicknow" />
+<link rel="enclosure" type="image/png" href="https://clicknow.ai/blog/assets/uploads/14bcd67f1b0ac5ee16089ff42de8711d.png" length="55303" />
+<title>How to customize Clicknow?</title>
+<summary>Keyboard shortcut, font, color, language preference, and more</summary>
+<content type="html"><![CDATA[<p>Clicknow works out-of-the-box without any configuration. However, you can customize it in various ways to fit your best needs</p>
+Keyboard Shortcuts
+<p>By default, Clicknow activates upon text selection (using trackpad or mouse). You can switch to using keyboard shortcut:</p>
+<img src="https://editor.blogstatic.io/web/assets/uploads/503003fec87144a63e5f7b1fca52a376.png" alt="503003fec87144a63e5f7b1fca52a376.png">Font
+<p>You can change the font and line spacing of the text  in the popup</p>
+<img src="https://editor.blogstatic.io/web/assets/uploads/ae131b0afc70d69edfbc0a467ebba66a.png" alt="ae131b0afc70d69edfbc0a467ebba66a.png"><p>With "Accent Color", you can change the color of the search button:</p>
+<img src="https://editor.blogstatic.io/web/assets/uploads/ff40721c4810549b3af31a59d96141ac.png" alt="ff40721c4810549b3af31a59d96141ac.png">Language
+<p>Customizing languages cannot be easier. Clicknow gives you the freedom to pick different language for different purposes.</p>
+<img src="https://editor.blogstatic.io/web/assets/uploads/323f10a43657fe2aaf707d4d3a69bccb.png" alt="323f10a43657fe2aaf707d4d3a69bccb.png">Functionality
+<p>You can disable or enable certain functionalities. By default, they are all enabled.</p>
+<img src="https://editor.blogstatic.io/web/assets/uploads/f25649b74e87e50348700e407b79f8a4.png" alt="f25649b74e87e50348700e407b79f8a4.png">Disable Clicknow in certain apps
+<p>Clicknow will try to copy your selected text, and sometimes this can cause trouble in certain apps (e.g. games, photo editing). Luckily, you can pick which apps you want Clicknow to be disabled, so it doesn't bother you when you don't need it.</p>
+<img src="https://editor.blogstatic.io/web/assets/uploads/50f2c51b227112922dfe46b7b3b42109.png" alt="50f2c51b227112922dfe46b7b3b42109.png">Want more customization? <a href="https://clicknow.ai/blog/contact">Let me know</a>! ]]></content>
+<author>
+<name>laike9m </name>
+</author>
+</entry>
+<entry>
+<id>https://clicknow.ai/blog/contact</id>
+<published>2024-09-29T00:05:00Z</published>
+<updated>2024-10-12T05:28:29Z</updated>
+<link rel="alternate" type="text/html" href="https://clicknow.ai/blog/contact" />
+<title>Contact</title>
+<summary>How to contact the author and get support</summary>
+<content type="html"><![CDATA[<ul><li>User forum: <a href="https://www.reddit.com/r/ClicknowAI/">r/ClicknowAI</a></li><li>Twitter: <a href="https://x.com/laike9m">@laike9m</a></li><li>Mastodon: <a href="https://mastodon.social/@laike9m">mastodon.social/@laike9m</a></li><li>Email: laike9m @ gmail.com (remove spaces)</li></ul>]]></content>
+<author>
+<name>laike9m </name>
+</author>
+</entry>
+<entry>
+<id>https://clicknow.ai/blog/clicknow-vs-other-tools</id>
+<published>2024-09-28T03:01:00Z</published>
+<updated>2024-12-06T08:27:24Z</updated>
+<link rel="alternate" type="text/html" href="https://clicknow.ai/blog/clicknow-vs-other-tools" />
+<title>Clicknow vs Dictionary, Perplexity, Apple Intelligence, PopClip</title>
+<summary>How Clicknow is different from other tools, and why you might pick Clicknow over them</summary>
+<content type="html"><![CDATA[Clicknow vs Dictionary
+<p>Compared to dictionary, Clicknow let you access the world's knowledge, no matter if it's an academic term or the latest slang.</p><img src="https://editor.blogmaker.app/web/assets/uploads/8a005082030152cf7434bf1b4e620a06.gif" alt="8a005082030152cf7434bf1b4e620a06.gif">
+
+Clicknow vs Perplexity<br>
+<p>Clicknow and Perplexity both provides online AI-search features. What sets Clicknow apart from Perplexity is its seamless integration and ease of use. Unlike Perplexity which is a standalone website, Clicknow works within any app you're using. With just one click, you can get an instant explanation of selected text in your preferred language - no need to copy text, open a new browser tab, and paste the text. This makes it incredibly convenient for quick translations, research while reading PDFs, browsing the web, or using any other app.</p>
+Clicknow vs Apple Intelligence
+<p>While Apple Intelligence focuses on AI-assisted writing, Clicknow is designed for instant searches and explanations. With Clicknow, you can quickly get detailed information about any term or phrase you come across, without disrupting your workflow. Its AI-powered search provides accurate, real-time explanations with additional context, giving you a deeper understanding of the selected text. In contrast, Apple Intelligence primarily offers writing suggestions and assistance, making it less suitable for on-the-spot research and translations.</p>
+Clicknow vs PopClip
+<p>Everyone loves PopClip. When it comes to extensibility, PopClip is the best.</p>
+<p>Clicknow tries to do one thing and one thing really well: AI-search. While you can use PopClip to Google the selected text, it's still one step away in a new browser tab. <strong>With Clicknow, you can  get the information you need while staying in your current app</strong>, without being interrupted, and no need to switching between apps.</p>]]></content>
+<author>
+<name>laike9m </name>
+</author>
+</entry>
+</feed>

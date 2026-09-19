@@ -71,3 +71,20 @@ Getting this backwards produces either `/blog/blog/assets/...` or a 404.
 hugo server            # http://localhost:1313/blog/
 hugo --gc --minify     # production build into ./public
 ```
+
+## Regression guard
+
+`tools/verify_build.py` runs in CI between build and deploy. It pins the
+migration contract against `tools/blogmaker-feed.atom` (a frozen copy of the
+original Blogmaker feed):
+
+- all 16 original post URLs still resolve
+- asset paths keep the `/blog` prefix
+- `feed.atom` entry ids stay byte-identical
+
+If any of these break, the deploy fails instead of silently shipping.
+
+> [!NOTE]
+> `hugo server` writes into `public/`, leaving `localhost:1313` URLs behind.
+> `public/` is gitignored and CI always builds from a clean checkout, so this
+> can't reach production — but don't publish a locally-served `public/` by hand.
