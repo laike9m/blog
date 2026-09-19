@@ -43,6 +43,12 @@ jobs:
       - name: Build
         run: hugo --gc --minify
 
+      # Hugo has no switch for this: it always appends a trailing slash to
+      # pretty URLs, but Blogmaker served /blog/<slug> without one. Restore the
+      # original form so old links, canonicals and feed ids all agree.
+      - name: Strip trailing slashes from page URLs
+        run: python3 tools/strip_trailing_slashes.py
+
       # Gate the deploy on the migration contract: every original Blogmaker
       # URL must still resolve, asset paths must keep the /blog prefix, and
       # feed entry ids must stay byte-identical. Cheaper to fail here than to

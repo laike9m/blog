@@ -123,6 +123,32 @@ def main() -> None:
     check(not (PUBLIC / "posts" / "index.html").is_file(),
           "/blog/posts/ was rendered (duplicate listing page)")
 
+    # --- 7. page URLs must carry no trailing slash -------------------------
+    # Hugo always appends one; tools/strip_trailing_slashes.py removes it so
+    # the public URLs match the Blogmaker originals. If that step is skipped
+    # or regresses, links and canonicals silently drift back to /slug/.
+    slug_set = {u.rsplit("/", 1)[-1] for u in original_ids}
+    offenders = set()
+    for html_file in html_files:
+        text = html_file.read_text(encoding="utf-8")
+        for slug in slug_set:
+            if f"/blog/{slug}/" in text:
+                offenders.add(f"{html_file.relative_to(PUBLIC)} -> /blog/{slug}/")
+    check(not offenders,
+          "trailing slash on page URLs (did strip_trailing_slashes.py run?):\n    "
+          + "\n    ".join(sorted(offenders)[:5]))
+
+    for post_url in original_ids:
+        page = public_path(urlparse(post_url).path)
+        if page is None:
+            continue
+        soup = BeautifulSoup(page.read_text(encoding="utf-8"), "html.parser")
+        canonical = soup.find("link", rel="canonical")
+        check(canonical is not None and canonical["href"] == post_url,
+              f"canonical mismatch for {post_url}: "
+              f"{canonical['href'] if canonical else 'missing'}")
+    notes.append("page URLs and canonicals match the original no-slash form")
+
     print("\n".join(f"  . {n}" for n in notes))
     if failures:
         print(f"\nFAILED ({len(failures)}):")
